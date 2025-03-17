@@ -34,7 +34,7 @@ public class JpaDemoApplication {
 
 
 
-//        BookService bookService = context.getBean(BookService.class);
-//        bookService.fetchBooksWithAuthor();
+        BookService bookService = context.getBean(BookService.class);
+        bookService.fetchBooksWithAuthor();
     }
 }
